@@ -1,13 +1,2 @@
 #!/bin/bash
-
-# List all files in the current directory in long format
 ls -al
-
-# Change to the parent directory of the working directory and list all files in long format
-cd ..
-ls -al
-
-# Change to the /boot directory and list all files in long format
-cd /boot
-ls -al
-
