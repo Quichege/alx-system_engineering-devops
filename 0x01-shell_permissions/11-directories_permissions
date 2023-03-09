@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod a+rx {} \;
+for dir in */; do chmod a+rx "$dir"
